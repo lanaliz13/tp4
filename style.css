@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@300&family=Raleway:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #0c0ce94d;
+}
+.form{
+    width: 380px;
+    height: 400px;
+    background-color:white;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form h1{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.form .input-login{
+    position: relative;
+    background-color: white;
+    height: 70px;
+    font-weight: bold;
+
+  
+}
+
+.input-login input{
+    width: 100%;
+    height: 50%;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, .179);
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.conteudo{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-login label{
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+.input-login i{
+    position: absolute;
+    right:20px;
+    padding-top: 10px;
+   
+}
+
+
+.form .lembre{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 0px 10px 10px;
+}
+.form .buttonlog{
+    width: 50%;
+    border-radius: 20px;
+    background-color:#8a8aee4d;;
+    border-color: #4B0082;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    cursor: pointer;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+

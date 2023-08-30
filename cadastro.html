@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastrostyle.css">
+</head>
+<body>
+    <div class="cadastro">
+      
+      <div class="formimg">
+                <img src="img/undraw_working_remotely_re_6b3a.svg" alt="">
+            </div>
+    <div class="form2">
+        <form action=""><br>
+            <header>
+                <center><H1>Cadastre-se</H1></header></center>
+            <div class="input-group">
+            <div class="input-cadastro">
+                <label class="label"  for="nome">Primeiro nome:</label><br>
+                <input type="text" id="nome"  placeholder="Digite o primeiro nome" required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="sobrenome">Sobrenome:</label><br>
+                <input type="text" id="sobrenome" name="sobrenome"  placeholder= "Digite o sobrenome" required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="email">Email:</label><br>
+                <input type="email" id="email" name="email"  placeholder="Digite seu email" required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="senha">Senha:</label><br>
+                <input type="password" id="senha"  placeholder="Crie uma senha" required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="senha">Confirme sua senha:</label><br>
+                <input type="password" id="senha" name="senha"  placeholder="Digitar senha novamente" required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="Idade">Idade:</label><br>
+                <input type="number" id="Idade" name="matrícula"  placeholder="" required>
+            </div>
+            
+            <div class="input-cadastro">
+                <label class="label" for="matrícula">Matrícula:</label><br>
+                <input type="number" id="matrícula" name="matrícula"  placeholder="Digite o número da matrícula" required>
+            </div>
+            <div class="input-data">
+                <label class="label" for="idade">Data de nascimento:</label><br>
+                <input type="date" id="idade" name="idade"  required>
+            </div>
+            <div class="input-cadastro">
+                <label class="label" for="celular">Celular:</label><br>
+                <input type="tel" id="celular" name="celular" placeholder="(XX) XXXX-XXXX"  required>
+            </div><br>
+
+        
+            <div class="input-radio">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" id="sexo">
+                <label for="sexo">Masculino</label><br>
+                <input type="radio" name="sexo" id="sexof">
+                <label for="sexof">Feminino</label>
+            </div>
+            
+            <div class="input-optgroup"> 
+                <label for="es">Estado:<br>
+                    
+                <select name="es" id="es">
+                        <option value="Acre">AC</option>
+                        <option value="Alagoas">AL</option>
+                        <option value="Amapá">AP</option>
+                        <option value="Amazonas">AM</option>
+                        <option value="Bahia">BA</option>
+                        <option value="Ceará">CE</option>
+                        <option value="Espírito Santo">ES</option>
+                        <option value="Goiás">GO</option>
+                        <option value="Maranhão">MA</option>
+                        <option value="Mato Grosso">MT</option>
+                        <option value="Mato Grosso do Sul">MS</option>
+                        <option value="Minas Gerais">MG</option>
+                        <option value="Pará">PR</option>
+                        <option value="Paraíba">PB</option>
+                        <option value="Pernambuco">PE</option>
+                        <option value="Piauí">PI</option>
+                        <option value="Rio de Janeiro">RJ</option>
+                        <option value="Rio Grande do Norte">RN</option>
+                        <option value="Rio Grande do Sul">RS</option>
+                        <option value="Rondôbia">RO</option>
+                        <option value="Roraíma">RR</option>
+                        <option value="Santa Catarina">SC</option>
+                        <option value="São Paulo">SP</option>
+                        <option value="Sergipe">SE</option>
+                        <option value="Tocantins">TO</option>
+                        <option value="Distrito Federal">DF</option>
+                </select>
+        
+            </div>
+            <div class="sinf">
+                <label><input type= "checkbox"> Salvar informações</label>
+        
+            </div>
+        </form>
+    
+        <div class="botãocadastro">
+            <button type="submit" class="button-cadastro"><a href="">Cadastrar</a></button>
+            <button type="submit" class="button-cadastro"><a href="index.html">Voltar</a></button>
+        </div>
+        </div>    
+</body>
+</html>
